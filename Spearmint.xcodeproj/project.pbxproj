@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A96632F17B2C16F511B72F9B /* Pods_Spearmint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D18A3A32EFC7D5C25CBF6305 /* Pods_Spearmint.framework */; };
+		BC11C6BC1F9DAEE60063CC80 /* TextFieldTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC11C6BB1F9DAEE60063CC80 /* TextFieldTableCell.swift */; };
+		BC33CB2B1FDC9180007F0BB9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33CB2A1FDC9180007F0BB9 /* User.swift */; };
+		BC33CB2E1FDC9451007F0BB9 /* FirebaseIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33CB2D1FDC9451007F0BB9 /* FirebaseIdentifiers.swift */; };
+		BC33CB331FDFAB3B007F0BB9 /* FLSharedElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33CB321FDFAB3B007F0BB9 /* FLSharedElements.swift */; };
+		BC33CB351FDFB3E5007F0BB9 /* BankLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33CB341FDFB3E5007F0BB9 /* BankLinkViewController.swift */; };
+		BC33CB381FE0F268007F0BB9 /* Plaid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33CB371FE0F268007F0BB9 /* Plaid.swift */; };
+		BC7FAAF41F7B66E1000D7CE3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC7FAAF31F7B66E1000D7CE3 /* GoogleService-Info.plist */; };
+		BCAC5FE31FE6F1BD00AEC18B /* AppFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC5FE21FE6F1BD00AEC18B /* AppFlowController.swift */; };
+		BCAC5FE51FE6F2E800AEC18B /* TransactionsHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC5FE41FE6F2E800AEC18B /* TransactionsHistoryViewController.swift */; };
+		BCAC5FE71FE785F300AEC18B /* PlaidCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC5FE61FE785F300AEC18B /* PlaidCore.swift */; };
+		BCAF6FBC1FCA407D007B6081 /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF6FBB1FCA407D007B6081 /* ButtonTableViewCell.swift */; };
+		BCB9F3D81F987D9E004125FB /* WelcomeFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB9F3D71F987D9E004125FB /* WelcomeFlowController.swift */; };
+		BCB9F3DC1F987F5F004125FB /* WelcomeFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB9F3DB1F987F5F004125FB /* WelcomeFlowViewController.swift */; };
 		BCBDE56B1F7B5595003350D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBDE56A1F7B5595003350D9 /* AppDelegate.swift */; };
-		BCBDE56D1F7B5595003350D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBDE56C1F7B5595003350D9 /* ViewController.swift */; };
-		BCBDE5701F7B5595003350D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCBDE56E1F7B5595003350D9 /* Main.storyboard */; };
+		BCBDE56D1F7B5595003350D9 /* RootFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBDE56C1F7B5595003350D9 /* RootFlowController.swift */; };
 		BCBDE5721F7B5595003350D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCBDE5711F7B5595003350D9 /* Assets.xcassets */; };
 		BCBDE5751F7B5595003350D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCBDE5731F7B5595003350D9 /* LaunchScreen.storyboard */; };
 		BCBDE5801F7B5596003350D9 /* SpearmintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBDE57F1F7B5596003350D9 /* SpearmintTests.swift */; };
 		BCBDE58B1F7B5596003350D9 /* SpearmintUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBDE58A1F7B5596003350D9 /* SpearmintUITests.swift */; };
+		BCCE1BEF1F8F414400B7217F /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCE1BEE1F8F414400B7217F /* LoadingViewController.swift */; };
+		BCE805DF1FC9687E00F000CD /* FLmvvm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE805DE1FC9687E00F000CD /* FLmvvm.swift */; };
+		BCE805E11FC9688600F000CD /* FLTableBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE805E01FC9688600F000CD /* FLTableBuilder.swift */; };
+		BCE805E31FC968D100F000CD /* FLFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE805E21FC968D100F000CD /* FLFlowController.swift */; };
+		BCE805E51FC9694500F000CD /* FLAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE805E41FC9694500F000CD /* FLAutoLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +52,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0119F78392E8BB6A3D6DA7B2 /* Pods-Spearmint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spearmint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spearmint/Pods-Spearmint.debug.xcconfig"; sourceTree = "<group>"; };
+		568036956576C861F180AB73 /* Pods-Spearmint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spearmint.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spearmint/Pods-Spearmint.release.xcconfig"; sourceTree = "<group>"; };
+		BC11C6BB1F9DAEE60063CC80 /* TextFieldTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldTableCell.swift; sourceTree = "<group>"; };
+		BC33CB2A1FDC9180007F0BB9 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BC33CB2D1FDC9451007F0BB9 /* FirebaseIdentifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseIdentifiers.swift; sourceTree = "<group>"; };
+		BC33CB321FDFAB3B007F0BB9 /* FLSharedElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLSharedElements.swift; sourceTree = "<group>"; };
+		BC33CB341FDFB3E5007F0BB9 /* BankLinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankLinkViewController.swift; sourceTree = "<group>"; };
+		BC33CB371FE0F268007F0BB9 /* Plaid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plaid.swift; sourceTree = "<group>"; };
+		BC7FAAF31F7B66E1000D7CE3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BCAC5FE21FE6F1BD00AEC18B /* AppFlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFlowController.swift; sourceTree = "<group>"; };
+		BCAC5FE41FE6F2E800AEC18B /* TransactionsHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsHistoryViewController.swift; sourceTree = "<group>"; };
+		BCAC5FE61FE785F300AEC18B /* PlaidCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaidCore.swift; sourceTree = "<group>"; };
+		BCAF6FBB1FCA407D007B6081 /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
+		BCB9F3D71F987D9E004125FB /* WelcomeFlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeFlowController.swift; sourceTree = "<group>"; };
+		BCB9F3DB1F987F5F004125FB /* WelcomeFlowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeFlowViewController.swift; sourceTree = "<group>"; };
 		BCBDE5671F7B5595003350D9 /* Spearmint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spearmint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCBDE56A1F7B5595003350D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCBDE56C1F7B5595003350D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BCBDE56F1F7B5595003350D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCBDE56C1F7B5595003350D9 /* RootFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootFlowController.swift; sourceTree = "<group>"; };
 		BCBDE5711F7B5595003350D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCBDE5741F7B5595003350D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCBDE5761F7B5595003350D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +79,12 @@
 		BCBDE5861F7B5596003350D9 /* SpearmintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpearmintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCBDE58A1F7B5596003350D9 /* SpearmintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpearmintUITests.swift; sourceTree = "<group>"; };
 		BCBDE58C1F7B5596003350D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCE1BEE1F8F414400B7217F /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		BCE805DE1FC9687E00F000CD /* FLmvvm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLmvvm.swift; sourceTree = "<group>"; };
+		BCE805E01FC9688600F000CD /* FLTableBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLTableBuilder.swift; sourceTree = "<group>"; };
+		BCE805E21FC968D100F000CD /* FLFlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLFlowController.swift; sourceTree = "<group>"; };
+		BCE805E41FC9694500F000CD /* FLAutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLAutoLayout.swift; sourceTree = "<group>"; };
+		D18A3A32EFC7D5C25CBF6305 /* Pods_Spearmint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spearmint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A96632F17B2C16F511B72F9B /* Pods_Spearmint.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +113,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00E84DC7FED346CC13802472 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0119F78392E8BB6A3D6DA7B2 /* Pods-Spearmint.debug.xcconfig */,
+				568036956576C861F180AB73 /* Pods-Spearmint.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC19AE338E1D82ACB8A4A139 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D18A3A32EFC7D5C25CBF6305 /* Pods_Spearmint.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC11C6BA1F9DAECF0063CC80 /* UI Objects */ = {
+			isa = PBXGroup;
+			children = (
+				BC11C6BB1F9DAEE60063CC80 /* TextFieldTableCell.swift */,
+				BCAF6FBB1FCA407D007B6081 /* ButtonTableViewCell.swift */,
+			);
+			name = "UI Objects";
+			sourceTree = "<group>";
+		};
+		BC33CB291FDB9A13007F0BB9 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC33CB2D1FDC9451007F0BB9 /* FirebaseIdentifiers.swift */,
+				BC33CB2A1FDC9180007F0BB9 /* User.swift */,
+			);
+			name = "Data Models";
+			sourceTree = "<group>";
+		};
+		BC33CB361FE0F25D007F0BB9 /* PlaidAPI */ = {
+			isa = PBXGroup;
+			children = (
+				BC33CB371FE0F268007F0BB9 /* Plaid.swift */,
+				BCAC5FE61FE785F300AEC18B /* PlaidCore.swift */,
+			);
+			name = PlaidAPI;
+			sourceTree = "<group>";
+		};
+		BCAC5FE01FE6F13200AEC18B /* Home (Transactions, Budgets etc.) */ = {
+			isa = PBXGroup;
+			children = (
+				BCAC5FE21FE6F1BD00AEC18B /* AppFlowController.swift */,
+				BCAC5FE11FE6F17E00AEC18B /* Transactions */,
+			);
+			name = "Home (Transactions, Budgets etc.)";
+			sourceTree = "<group>";
+		};
+		BCAC5FE11FE6F17E00AEC18B /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				BCAC5FE41FE6F2E800AEC18B /* TransactionsHistoryViewController.swift */,
+			);
+			name = Transactions;
+			sourceTree = "<group>";
+		};
+		BCB9F3D51F987CE8004125FB /* FlightController */ = {
+			isa = PBXGroup;
+			children = (
+				BCE805DE1FC9687E00F000CD /* FLmvvm.swift */,
+				BCE805E01FC9688600F000CD /* FLTableBuilder.swift */,
+				BCE805E21FC968D100F000CD /* FLFlowController.swift */,
+				BCE805E41FC9694500F000CD /* FLAutoLayout.swift */,
+				BC33CB321FDFAB3B007F0BB9 /* FLSharedElements.swift */,
+			);
+			name = FlightController;
+			sourceTree = "<group>";
+		};
+		BCB9F3D61F987D64004125FB /* Welcome Flow */ = {
+			isa = PBXGroup;
+			children = (
+				BCB9F3D71F987D9E004125FB /* WelcomeFlowController.swift */,
+				BCB9F3DB1F987F5F004125FB /* WelcomeFlowViewController.swift */,
+				BC33CB341FDFB3E5007F0BB9 /* BankLinkViewController.swift */,
+			);
+			name = "Welcome Flow";
+			sourceTree = "<group>";
+		};
 		BCBDE55E1F7B5595003350D9 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +203,8 @@
 				BCBDE57E1F7B5596003350D9 /* SpearmintTests */,
 				BCBDE5891F7B5596003350D9 /* SpearmintUITests */,
 				BCBDE5681F7B5595003350D9 /* Products */,
+				00E84DC7FED346CC13802472 /* Pods */,
+				AC19AE338E1D82ACB8A4A139 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +221,16 @@
 		BCBDE5691F7B5595003350D9 /* Spearmint */ = {
 			isa = PBXGroup;
 			children = (
-				BCBDE56A1F7B5595003350D9 /* AppDelegate.swift */,
-				BCBDE56C1F7B5595003350D9 /* ViewController.swift */,
-				BCBDE56E1F7B5595003350D9 /* Main.storyboard */,
+				BC33CB361FE0F25D007F0BB9 /* PlaidAPI */,
+				BCB9F3D51F987CE8004125FB /* FlightController */,
+				BC33CB291FDB9A13007F0BB9 /* Data Models */,
+				BC11C6BA1F9DAECF0063CC80 /* UI Objects */,
+				BCCE1BE91F8DDA2800B7217F /* Root Flow */,
+				BCB9F3D61F987D64004125FB /* Welcome Flow */,
+				BCAC5FE01FE6F13200AEC18B /* Home (Transactions, Budgets etc.) */,
 				BCBDE5711F7B5595003350D9 /* Assets.xcassets */,
 				BCBDE5731F7B5595003350D9 /* LaunchScreen.storyboard */,
+				BC7FAAF31F7B66E1000D7CE3 /* GoogleService-Info.plist */,
 				BCBDE5761F7B5595003350D9 /* Info.plist */,
 			);
 			path = Spearmint;
@@ -125,6 +254,16 @@
 			path = SpearmintUITests;
 			sourceTree = "<group>";
 		};
+		BCCE1BE91F8DDA2800B7217F /* Root Flow */ = {
+			isa = PBXGroup;
+			children = (
+				BCBDE56A1F7B5595003350D9 /* AppDelegate.swift */,
+				BCBDE56C1F7B5595003350D9 /* RootFlowController.swift */,
+				BCCE1BEE1F8F414400B7217F /* LoadingViewController.swift */,
+			);
+			name = "Root Flow";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +271,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCBDE58F1F7B5596003350D9 /* Build configuration list for PBXNativeTarget "Spearmint" */;
 			buildPhases = (
+				ABD8BC6F92F8007190B3247C /* [CP] Check Pods Manifest.lock */,
 				BCBDE5631F7B5595003350D9 /* Sources */,
 				BCBDE5641F7B5595003350D9 /* Frameworks */,
 				BCBDE5651F7B5595003350D9 /* Resources */,
+				ABAA260E45A23E80E0C67883 /* [CP] Embed Pods Frameworks */,
+				ABAC03A3EACBB4681FAB73E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,8 +375,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCBDE5751F7B5595003350D9 /* LaunchScreen.storyboard in Resources */,
+				BC7FAAF41F7B66E1000D7CE3 /* GoogleService-Info.plist in Resources */,
 				BCBDE5721F7B5595003350D9 /* Assets.xcassets in Resources */,
-				BCBDE5701F7B5595003350D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +396,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ABAA260E45A23E80E0C67883 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Spearmint/Pods-Spearmint-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${PODS_ROOT}/Plaid/ios/LinkKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LinkKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spearmint/Pods-Spearmint-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABAC03A3EACBB4681FAB73E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Spearmint/Pods-Spearmint-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseFacebookAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseGoogleAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebasePhoneAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseTwitterAuthUI.bundle,
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spearmint/Pods-Spearmint-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABD8BC6F92F8007190B3247C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Spearmint-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BCBDE5631F7B5595003350D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCBDE56D1F7B5595003350D9 /* ViewController.swift in Sources */,
+				BC33CB381FE0F268007F0BB9 /* Plaid.swift in Sources */,
+				BCE805E11FC9688600F000CD /* FLTableBuilder.swift in Sources */,
+				BC11C6BC1F9DAEE60063CC80 /* TextFieldTableCell.swift in Sources */,
+				BCE805E51FC9694500F000CD /* FLAutoLayout.swift in Sources */,
+				BC33CB351FDFB3E5007F0BB9 /* BankLinkViewController.swift in Sources */,
+				BCAF6FBC1FCA407D007B6081 /* ButtonTableViewCell.swift in Sources */,
+				BCAC5FE51FE6F2E800AEC18B /* TransactionsHistoryViewController.swift in Sources */,
+				BCAC5FE31FE6F1BD00AEC18B /* AppFlowController.swift in Sources */,
+				BC33CB2B1FDC9180007F0BB9 /* User.swift in Sources */,
+				BC33CB2E1FDC9451007F0BB9 /* FirebaseIdentifiers.swift in Sources */,
+				BCBDE56D1F7B5595003350D9 /* RootFlowController.swift in Sources */,
 				BCBDE56B1F7B5595003350D9 /* AppDelegate.swift in Sources */,
+				BCE805DF1FC9687E00F000CD /* FLmvvm.swift in Sources */,
+				BCE805E31FC968D100F000CD /* FLFlowController.swift in Sources */,
+				BCB9F3DC1F987F5F004125FB /* WelcomeFlowViewController.swift in Sources */,
+				BC33CB331FDFAB3B007F0BB9 /* FLSharedElements.swift in Sources */,
+				BCCE1BEF1F8F414400B7217F /* LoadingViewController.swift in Sources */,
+				BCAC5FE71FE785F300AEC18B /* PlaidCore.swift in Sources */,
+				BCB9F3D81F987D9E004125FB /* WelcomeFlowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +530,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BCBDE56E1F7B5595003350D9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BCBDE56F1F7B5595003350D9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BCBDE5731F7B5595003350D9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -410,6 +636,7 @@
 		};
 		BCBDE5901F7B5596003350D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0119F78392E8BB6A3D6DA7B2 /* Pods-Spearmint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Spearmint/Info.plist;
@@ -422,6 +649,7 @@
 		};
 		BCBDE5911F7B5596003350D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 568036956576C861F180AB73 /* Pods-Spearmint.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Spearmint/Info.plist;
@@ -505,6 +733,7 @@
 				BCBDE5911F7B5596003350D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCBDE5921F7B5596003350D9 /* Build configuration list for PBXNativeTarget "SpearmintTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +742,7 @@
 				BCBDE5941F7B5596003350D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCBDE5951F7B5596003350D9 /* Build configuration list for PBXNativeTarget "SpearmintUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +751,7 @@
 				BCBDE5971F7B5596003350D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

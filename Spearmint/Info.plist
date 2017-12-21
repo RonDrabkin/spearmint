@@ -20,10 +20,19 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>PLKPlaidLinkConfiguration</key>
+	<dict>
+		<key>clientId</key>
+		<string>597e25704e95b8527d9a4809</string>
+		<key>clientName</key>
+		<string>Spearmint</string>
+		<key>env</key>
+		<string>Development</string>
+		<key>product</key>
+		<string>auth</string>
+	</dict>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
-	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
